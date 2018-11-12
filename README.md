@@ -23,7 +23,6 @@ or
 - *install [CocoaPods](https://cocoapods.org/) in your react-native project and add the following line to your Podfile then run `pod install` __(iOS only)__*
    ```
    pod 'TesseractOCRiOS', '4.0.0'
-   pod 'GPUImage', '0.1.7'
    ```
 - Add `$(SRCROOT)/../../../ios/Pods` with `recursive` to `Header Search Paths` of the `RNTesseractOcr` project by select `RNTesseractOcr.xcodeproj` from `Project Navigator` then select `Build Settings` tab, search for `Header Search Paths` __(iOS only)__
 
